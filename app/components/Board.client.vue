@@ -3,6 +3,9 @@
 </template>
 
 <script lang="ts" setup>
+import { useDebounceFn } from '@vueuse/core'
+import { drawCircle } from '~/utils/draw'
+import { euclidianDistance } from '~/utils/math'
 import type { Point } from '~/types/board'
 
 const board = ref<HTMLCanvasElement | null>(null)
