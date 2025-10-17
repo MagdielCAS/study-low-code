@@ -4,6 +4,7 @@
 
 <script lang="ts" setup>
 import { useDebounceFn } from '@vueuse/core'
+import type { Point } from '~/types/board'
 import { drawCircle } from '~/utils/draw'
 import { euclidianDistance } from '~/utils/math'
 import type { Point } from '~/types/board'
