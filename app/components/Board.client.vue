@@ -62,7 +62,7 @@ watch(
   (nodes) => {
     interactiveNodes.value = nodes.map((node) => ({
       ...node,
-      ports: node.ports.map((port) => ({ ...port }))
+      ports: node.ports.map((port) => ({ ...port })),
     }))
   },
   { immediate: true, deep: true }
