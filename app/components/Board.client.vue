@@ -31,7 +31,7 @@ import type {
   LowCodeConnectionTerminal,
   LowCodeNode,
   LowCodePoint,
-  LowCodePort
+  LowCodePort,
 } from '~/types/lowCode'
 
 const DEFAULT_NODE_WIDTH = 180
